@@ -1,7 +1,5 @@
 # 线性分类器
-设![](https://latex.codecogs.com/gif.latex?\\ x_i = (x_{i1},x_{i2},...,x_{ip}) \quad i=1,2,...,N)，$y = (y_1,y_2,...,y_N)&，转换为矩阵表示为：
-![](http://latex.codecogs.com/gif.latex?%5Csigma%3D%5Csqrt%7B%5Cfrac%7B1%7D%7Bn%7D%7B%5Csum_%7Bk%3D1%7D%5En%28x_i-%5Cbar%7Bx%7D%29%5E2%7D%7D)
-
+设![](https://latex.codecogs.com/svg.latex?x_i%20=%20(x_{i1},x_{i2},...,x_{ip})%20\quad%20i=1,2,...,N)，$y = (y_1,y_2,...,y_N)&，转换为矩阵表示为：
 $$X = \begin{pmartix}
         x_{11} & x_{12} & \cdots &x_{1p} \\
         x_{21} & x_{22} & \cdots & x_{2p} \\
