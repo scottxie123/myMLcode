@@ -1,3 +1,9 @@
 # 线性分类器
-设![](https://latex.codecogs.com/svg.latex?x_i%20=%20(x_{i1},x_{i2},...,x_{ip})%20\quad%20i=1,2,...,N)，![](https://latex.codecogs.com/svg.latex?y%20=%20(y_1,y_2,...,y_N))，转换为矩阵表示为：
-![](https://latex.codecogs.com/svg.latex?X%20=%20\left(\begin{martix}%20%20%20%20%20%20%20%20x_{11}%20&%20x_{12}%20&%20\cdots%20&x_{1p}%20\\\%20%20%20%20%20%20%20%20x_{21}%20&%20x_{22}%20&%20\cdots%20&%20x_{2p}%20\\\%20%20%20%20%20%20%20%20%20\vdots%20&%20\vdots%20&%20\ddots%20&%20\vdots%20\\\%20%20%20%20%20%20%20%20x_{N1}%20&%20x_{N2}%20&%20\cdots%20&%20x_{Np}%20\\\%20%20\end{martix}\right)^T)
+设$x_i = (x_{i1},x_{i2},...,x_{ip}) \quad i=1,2,...,N$，$y = (y_1,y_2,...,y_N)&，转换为矩阵表示为：
+$$X = \begin{pmartix}
+        x_{11} & x_{12} & \cdots &x_{1p} \\
+        x_{21} & x_{22} & \cdots & x_{2p} \\
+        \vdots & \vdots & \ddots & \vdots \\
+        x_{N1} & x_{N2} $ \cdots & x_{Np} \\
+        \end{martix}^T
+$$
