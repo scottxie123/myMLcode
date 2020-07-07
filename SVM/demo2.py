@@ -1,6 +1,6 @@
 import numpy as np
 from SVM import SVM
-from kernal import *
+from kernel import *
 from generate_data import *
 from time import time
 import matplotlib.pyplot as plt
@@ -10,7 +10,7 @@ t = time()
 X_train,y_train,X_test,y_test = gen_data()
 print("Done!",time()-t)
 
-svm = SVM(X_train.T,y_train,C = 1,toler = 0.001,kernal = laplacian_kernal,parameter=[1])
+svm = SVM(X_train.T,y_train,C = 1,toler = 0.001,kernel = laplacian_kernel,parameter=[1])
 print('Training...')
 t = time()
 svm.fit()

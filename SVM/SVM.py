@@ -1,12 +1,12 @@
 import numpy as np
-from kernal import linear_kernal
+from kernel import linear_kernel
 
 class  SVM():
-    def __init__(self,train_data,train_label,C,toler,kernal=linear_kernal, parameter = [],maxiter=5,eps = 1e-10):
+    def __init__(self,train_data,train_label,C,toler,kernel=linear_kernel, parameter = [],maxiter=5,eps = 1e-10):
         #模型参数
         self.C = C
         self.toler = toler
-        self.kernal = kernal
+        self.kernel = kernel
         self.parameter = parameter
         self.maxiter = maxiter
         self.eps = eps
@@ -28,7 +28,7 @@ class  SVM():
         '''
         定义内积
         '''
-        return self.kernal(x,y,self.parameter)
+        return self.kernel(x,y,self.parameter)
 
     def compute_Ek(self,k):
         '''

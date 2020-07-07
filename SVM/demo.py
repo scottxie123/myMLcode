@@ -3,7 +3,7 @@ from sklearn import datasets
 from sklearn.model_selection import train_test_split
 import numpy as np
 from SVM import SVM
-from kernal import *
+from kernel import *
 from time import time
 
 print('Loading Data ...')
@@ -22,7 +22,7 @@ y_test = np.array(y_test)
 
 print("Done!",time()-t)
 
-svm = SVM(X_train,y_train,C = 1,toler = 0.001,kernal = gaussian_kernal,parameter=[0.1])
+svm = SVM(X_train,y_train,C = 1,toler = 0.001,kernel = gaussian_kernel,parameter=[0.1])
 print('Training...')
 t = time()
 svm.fit()
