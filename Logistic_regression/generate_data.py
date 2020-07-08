@@ -23,10 +23,10 @@ def gen_data():
     return X_train,y_train,X_test,y_test
 
 def gen_linear_data():
-    x1 = np.random.randn(1000,2)+np.array([[2,2]]).T
-    x2 = np.random.randn(1000,2)-np.array([[2,2]]).T
-    x3 = np.random.randn(1000,2)+np.array([[2,2]]).T
-    x4 = np.random.randn(1000,2)-np.array([[2,2]]).T
+    x1 = np.random.randn(1000,2)+np.array([[2,2]])
+    x2 = np.random.randn(1000,2)-np.array([[2,2]])
+    x3 = np.random.randn(1000,2)+np.array([[2,2]])
+    x4 = np.random.randn(1000,2)-np.array([[2,2]])
 
     X_train = np.concatenate((x1,x2))
     y_train = np.concatenate((np.ones(1000),0*np.ones(1000)))
