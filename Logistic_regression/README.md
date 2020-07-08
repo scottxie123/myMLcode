@@ -3,7 +3,7 @@
 
 Sigmoid 函数：$\sigma(z) = \frac{1}{1+e^{-z}}$
 
-Logistic回归模型定义：$f(x) = \frac{1}{1+e^{-w^Tx}}$
+Logistic回归模型定义：$p_1=p(y=1|x) = \frac{1}{1+e^{-w^Tx}}=\psi(x;w)$ , $p_0=p(y=0|x)=1-\psi(x;w)$
 
 Loss函数：
 
