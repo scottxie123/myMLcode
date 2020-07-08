@@ -51,9 +51,8 @@ for x_2,y_2 in zip(xx,yy):
     result.append(pre)
 ind = np.nonzero(result)[0]
 ind2 = np.nonzero([not i for i in result])[0]
-#print(ind)
 plt.figure()
-plt.plot(x,y,c='k')
+#plt.plot(x,y,c='k')
 plt.scatter(X_test[0][:1000],X_test[1][:1000],marker='+',c='k')
 plt.scatter(X_test[0][1000:],X_test[1][1000:],marker='*',c='r')
 plt.scatter(xx[ind],yy[ind],c = 'b',alpha=0.1, lw=0)
