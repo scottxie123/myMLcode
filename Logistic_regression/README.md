@@ -9,10 +9,10 @@ Loss函数：
 
 $$
 \begin{matrix}
-    \widehat{w} &= \argmax_w\log P(Y|X)\\\\
-    &=\argmax_w\log\prod_{i=1}^Np(y_i|x_i) \\\\
-    &=\argmax_w\sum_{i=1}^N\log p(y_i|x_i) \\\\
-    &=\argmax_w\sum_{i=1}^N(y_i\log p_1+(1-y_i)\log p_0)\\\\
-    &=\argmax_w\sum_{i=1}^N(y_i\log\psi(x;w)+(1-y_i)\log(1-\psi(x;w)))\\\\
+    \widehat{w} &= argmax_w\log P(Y|X)\\\\
+    &=argmax_w\log\prod_{i=1}^Np(y_i|x_i) \\\\
+    &=argmax_w\sum_{i=1}^N\log p(y_i|x_i) \\\\
+    &=argmax_w\sum_{i=1}^N(y_i\log p_1+(1-y_i)\log p_0)\\\\
+    &=argmax_w\sum_{i=1}^N(y_i\log\psi(x;w)+(1-y_i)\log(1-\psi(x;w)))\\\\
     \end{matrix}
 $$
