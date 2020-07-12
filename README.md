@@ -5,3 +5,5 @@ require: numpy, matplotlib, pytorch, sklearn
 ## 线性回归(Linear Regression)
 ## 线性判别分析(LDA/Linear Discriminant Analysis)
 ## 支持向量机(SVM)
+## 逻辑回归(Logistic Regression)
+## 高斯判别分析(GDA)
