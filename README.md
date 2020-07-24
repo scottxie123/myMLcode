@@ -1,4 +1,4 @@
-# 我的机器学习复现仓库
+# 这是我的机器学习复现仓库
 require: numpy, matplotlib, pytorch, sklearn
 
 注：README内含有公式，可通过插件Github with MathJax 查看
