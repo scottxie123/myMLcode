@@ -7,3 +7,4 @@ require: numpy, matplotlib, pytorch, sklearn
 ## 支持向量机(SVM)
 ## 逻辑回归(Logistic Regression)
 ## 高斯判别分析(GDA)
+## 朴素贝叶斯
